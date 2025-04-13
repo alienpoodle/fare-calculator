@@ -1,8 +1,7 @@
-# Brunei Taxi Fare Calculator
-- Simple web app to calculate Brunei taxi fares
+Rideshare Fare Calculator
+- Simple web app to calculate trip fares
 
-## Demo: https://thewheat.github.io/brunei-taxi-fare-calculator/
+## Demo: https://alienpoodle.github.io/fare-calculator/
 
-- Acknowledgements to [@possiblyzebra's tweet](https://twitter.com/possiblyzebra/status/860777077024444416/photo/1)
-- Source: [Land Transport Department](http://www.mincom.gov.bn/ltd/Lists/News/NDispForm.aspx?ID=239)
-- Fares ([JPG](https://thewheat.github.io/brunei-taxi-fare-calculator/files/taxi-fare-draft.jpg) | [PDF](https://thewheat.github.io/brunei-taxi-fare-calculator/files/taxi-fare-draft.pdf))
+- Acknowledgements to [(https://thewheat.github.io/brunei-taxi-fare-calculator)] original project that I forked
+- Fares [PDF](ttps://github.com/alienpoodle/fare-calculator/files/taxi-fare-draft.pdf))
