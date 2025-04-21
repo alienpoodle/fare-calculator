@@ -1,10 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-	<title>Fare Calculator</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href=./webapp/dist/bootstrap/bootstrap.min.css rel=stylesheet>
-	<style type="text/css" src="./webapp/dist/style.css"></style>
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="application-name" content="&nbsp;"/>
+	<meta name="msapplication-TileColor" content="#FFFFFF" />
+	<meta name="msapplication-TileImage" content="ico/mstile-144x144.png" />
+	<meta name="msapplication-square70x70logo" content="ico/mstile-70x70.png" />
+	<meta name="msapplication-square150x150logo" content="ico/mstile-150x150.png" />
+	<meta name="msapplication-wide310x150logo" content="ico/mstile-310x150.png" />
+	<meta name="msapplication-square310x310logo" content="ico/mstile-310x310.png" />
+
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- ICO -->
 	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="ico/apple-touch-icon-57x57.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114x114.png" />
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72x72.png" />
@@ -18,15 +29,8 @@
 	<link rel="icon" type="image/png" href="ico/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="ico/favicon-16x16.png" sizes="16x16" />
 	<link rel="icon" type="image/png" href="ico/favicon-128.png" sizes="128x128" />
-	<meta name="application-name" content="&nbsp;"/>
-	<meta name="msapplication-TileColor" content="#FFFFFF" />
-	<meta name="msapplication-TileImage" content="ico/mstile-144x144.png" />
-	<meta name="msapplication-square70x70logo" content="ico/mstile-70x70.png" />
-	<meta name="msapplication-square150x150logo" content="ico/mstile-150x150.png" />
-	<meta name="msapplication-wide310x150logo" content="ico/mstile-310x150.png" />
-	<meta name="msapplication-square310x310logo" content="ico/mstile-310x310.png" />
-
-</head>
+    <title>Fare Calculator</title>
+  </head>
 <body>
     <nav class="navbar navbar-inverse">
       <div class="container">
@@ -120,14 +124,15 @@
 	<div class="row">
     <footer class="well">
     	<ul>
-			<li>Acknowledgements to <a href="https://twitter.com/possiblyzebra/status/860777077024444416/photo/1">@possiblyzebra's tweet</a></li>
+			<li>Acknowledgements to <a href="https://twitter.com/possiblyzebra/status/860777077024444416/photo/1">Original Project I forked</a></li>
 			<li>Fares (<a href="files/taxi-fare-draft.jpg">JPG</a> | <a href="files/taxi-fare-draft.pdf">PDF</a>)</li>
     	</ul>
     </footer>
 	</div>
 </div>
 </body>
-<script type="text/javascript" src="./webapp/dist/jquery/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXvfyqM5sQTVf06YGl37fs1yHIJEGAJzk&libraries=places&callback=initMap">
 </script>
@@ -502,4 +507,5 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXvfyqM5sQTVf06YGl37fs1yH
 		return extraCost;
 	}
 </script>
+
 </html>
