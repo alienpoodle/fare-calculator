@@ -1,0 +1,79 @@
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline{
+			margin-left: auto;
+		}
+		.checkbox-inline.checkbox-inline, .radio-inline.radio-inline{
+			margin-left: auto;
+			margin-right: 10px;
+		}
+		footer ul{
+			margin: 0;
+			padding: 0em;
+		}
+		.page-header {
+			margin-top: 0;
+			margin-bottom: 0.5em;
+		}
+		.sidebar {
+			text-align: center;
+		}
+		.details {
+			padding: 1em;
+			margin-bottom: 1em;
+		}
+		.details h3 {
+			margin: 0;
+		}
+
+		.form-group.number .input-group{
+			width:9em;
+			text-align: center;
+		}
+		.address-autocomplete .input-group{
+			width:25em;
+		}
+
+		#mapDisplay{
+			background: rgba(255,255,255,0.9);
+		}
+		#map{
+			width: 100%;
+			height: 200px;
+		}
+		#title {
+			background-image: url("ico/favicon-32x32.png");
+			background-repeat: no-repeat;
+			background-position: 1em 50%;
+			padding-left: 3.5em;
+		}
+
+		#latlng {
+			border: 1px solid #ddd;
+			padding: 0.5em;
+			margin-bottom: 0.5em;
+			height: 2.5em;
+		}
+		#map{
+			margin-top: 1em;
+		}
+		@media only screen and (max-width: 767px) {
+			.sidebar {
+				position: fixed;
+				right: 0;
+				z-index: 5;
+			}
+			#mapDisplay{
+				z-index: 2;
+				position: fixed;
+				bottom: 1em;
+				left: 1em;
+				right: 1em;
+				border: 1px solid black;
+			}
+			#map{
+				width: 100%;
+				height: 300px;
+			}
+			.address-autocomplete .input-group{
+				width:100%;
+			}
+		}
